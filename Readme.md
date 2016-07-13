@@ -23,8 +23,8 @@ const plugins = [
 
 #### Arguments
 
-- `trigger: String` — the string of text to match for replacing.
-- `replacement: String` — the string of text to replace the trigger with.
+- `trigger: String || RegExp` — the trigger to match the inputed character against.
+- `replacement: String || Function` — the string or function to replace the character with.
 - `[options: Object]` — a dictionary of extra options, see [Advanced Usage](#advanced-usage)
 
   
@@ -50,10 +50,10 @@ const plugins = [
 #### Arguments
 
 - `options: Object` — a dictionary of options.
-  - `trigger: String || Regexp` — the trigger to match the inputed character against.
+  - `trigger: String || RegExp` — the trigger to match the inputed character against.
   - `replacement: String || Function` — the string or function to replace the character with.
-  - `[matchBefore: Regexp]` — a regexp that must match the text before the trigger for the replacement to occur.
-  - `[matchAfter: Regexp]` — a regexp that must match the text after the trigger for the replacement to occur.
+  - `[matchBefore: RegExp]` — a regexp that must match the text before the trigger for the replacement to occur.
+  - `[matchAfter: RegExp]` — a regexp that must match the text after the trigger for the replacement to occur.
   - `[ignoreIn: Array]` — an array of block types to ignore replacement inside.
   - `[onlyIn: Array]` — an array of block types to only replace inside.
 

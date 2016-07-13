@@ -8,7 +8,49 @@
           "kind": "text",
           "ranges": [
             {
-              "text": "Test out the auto-replace plugin by typing a copyright sign, or trademark sign, or double quotes."
+              "text": "Try typing '(c)' here: "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "type": "paragraph",
+      "nodes": [
+        {
+          "kind": "text",
+          "ranges": [
+            {
+              "text": "Try typing '(tm)' here: "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "type": "paragraph",
+      "nodes": [
+        {
+          "kind": "text",
+          "ranges": [
+            {
+              "text": "Try typing '<->' here: "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "type": "paragraph",
+      "nodes": [
+        {
+          "kind": "text",
+          "ranges": [
+            {
+              "text": "Try typing '\"what\"' here: "
             }
           ]
         }

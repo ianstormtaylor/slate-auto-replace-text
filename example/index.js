@@ -10,8 +10,7 @@ class Example extends React.Component {
   plugins = [
     AutoReplaceText('(c)', '©'),
     AutoReplaceText('(tm)', '™'),
-    AutoReplaceText('->', '⟶'),
-    AutoReplaceText('<-', '⟵'),
+    AutoReplaceText('<->', '←→'),
     AutoReplaceText({
       trigger: '"',
       matchBefore: /[a-zA-Z]$/,
