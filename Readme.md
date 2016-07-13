@@ -25,7 +25,7 @@ const plugins = [
 
 - `trigger: String || RegExp` — the trigger to match the inputed character against.
 - `replacement: String || Function` — the string or function to replace the character with.
-- `[options: Object]` — a dictionary of extra options, see [Advanced Usage](#advanced-usage)
+- `[options: Object]` — a dictionary of extra options, see [Advanced Usage](#advanced-usage).
 
   
 ## Advanced Usage
