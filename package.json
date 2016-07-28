@@ -38,7 +38,7 @@
     "react-dom": "^15.2.1",
     "react-test-utils": "0.0.1",
     "read-metadata": "^1.0.0",
-    "slate": "^0.1.6",
+    "slate": "^0.8.0",
     "source-map-support": "^0.4.1",
     "watchify": "^3.7.0"
   }

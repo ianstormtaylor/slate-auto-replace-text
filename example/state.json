@@ -6,11 +6,7 @@
       "nodes": [
         {
           "kind": "text",
-          "ranges": [
-            {
-              "text": "Try typing '(c)' here: "
-            }
-          ]
+          "text": "Try typing '(c)' here: "
         }
       ]
     },
@@ -20,11 +16,7 @@
       "nodes": [
         {
           "kind": "text",
-          "ranges": [
-            {
-              "text": "Try typing '(tm)' here: "
-            }
-          ]
+          "text": "Try typing '(tm)' here: "
         }
       ]
     },
@@ -34,11 +26,7 @@
       "nodes": [
         {
           "kind": "text",
-          "ranges": [
-            {
-              "text": "Try typing '<->' here: "
-            }
-          ]
+          "text": "Try typing '<->' here: "
         }
       ]
     },
@@ -48,11 +36,7 @@
       "nodes": [
         {
           "kind": "text",
-          "ranges": [
-            {
-              "text": "Try typing '\"what\"' here: "
-            }
-          ]
+          "text": "Try typing '\"what\"' here: "
         }
       ]
     }
