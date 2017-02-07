@@ -31,7 +31,7 @@ const plugins = [
 ## Advanced Usage
 
 ```js
-import Replace from 'slate-auto-replace-text'
+import AutoReplaceText from 'slate-auto-replace-text'
 
 const plugins = [
   AutoReplaceText({
