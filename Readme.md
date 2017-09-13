@@ -1,4 +1,4 @@
 
-# `slate-auto-replace-text`
+### Deprecated!
 
-_**Deprecated.** Use [`slate-auto-replace`](https://github.com/ianstormtaylor/slate-auto-replace) instead, which is more flexible._
+This package has been deprecated. Use [`slate-auto-replace`](https://github.com/ianstormtaylor/slate-plugins) instead, which is more flexible.
